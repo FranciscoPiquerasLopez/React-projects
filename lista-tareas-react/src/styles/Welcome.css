@@ -1,0 +1,13 @@
+.title {
+    color: black;
+    font-weight: 800;
+}
+
+.button-start {
+    transition: ease-in-out 0.3s;
+    transition-duration: 500ms;
+}
+
+.button-start:hover {
+    transform: scale(1.05);
+}

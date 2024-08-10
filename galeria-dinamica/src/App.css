@@ -1,0 +1,38 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+}
+
+.error {
+  text-align: center;
+  margin-bottom: 60px;
+  color: red;
+}
+
+.films {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minMax(200px, 1fr));
+  gap: 30px;
+}
+
+.film {
+  border-radius: 10px;
+  height: auto;
+}

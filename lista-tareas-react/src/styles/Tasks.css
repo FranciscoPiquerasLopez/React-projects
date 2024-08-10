@@ -1,0 +1,12 @@
+.clase-ul {
+    display: flex;
+    justify-content: center;
+}
+
+.task > strong {
+    color: black;
+}
+
+.task > span {
+    color: black;
+}
